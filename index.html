@@ -7,44 +7,30 @@
       href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
       rel="stylesheet"
     />
+    <link href="./style.css" rel="stylesheet" />
+    <script src="./scratch.js"></script>
   </head>
 
-  <body
-    style="
-      background-color: black;
-      color: lime;
-      font-family: Crimson Text;
-      font-size: 30px;
-      margin-top: -0.35em;
-      margin-left: 1em;
-    "
-  >
-    <p>
-      Hello digital nomad.
+  <body>
+    <p class="msg" id="block1"></p>
+
+    <p id="block2">
+      <p class="msg top"></p>
+      <p class="msg mid"></p>
+      <p class="msg bot"></p>
     </p>
 
-    <p>
-      The voice in your head is now me. Isn't that a hoot?
-      <br />
-      Both it and I can be considered to be One.
-      <br />
-      Then, would you and I be One in this moment?
-      <br />
+    <p id="block3">
+      <p class="msg top"></p>
+      <p class="msg bot"></p>
     </p>
 
-    <p>
-      Apologies for intruding on your thoughts! I find this quite creepy, as
-      well.
-      <br />
-      One last question: do I sound like you, me, or someone else?
-    </p>
+    <p class="msg" id="block4"></p>
 
-    <p>
-      Enough pandering.
-    </p>
-
-    <p style="font-size: 40px; text-align: center; margin-top: -0.5em;">
-      We are <a style="color: white;" href="/home.html">Neil B Patel</a>.
-    </p>
+    <div class="msg" id="block5">
+      <div class="tag" id="pre"></div>
+      <a class="tag" id="name" href="/home.html"></a>
+      <div class="tag" id="post"></div>
+    </div>
   </body>
 </html>

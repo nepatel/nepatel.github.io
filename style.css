@@ -1,0 +1,28 @@
+body {
+  background: black;
+  color: lime;
+  font-family: Crimson Text;
+  font-size: 2.93vw;
+  margin-top: -0.3em;
+  margin-left: 1em;
+}
+
+#name {
+  color: white;
+}
+
+.top, .mid {
+    margin-bottom: -1em;
+}
+
+#block5 {
+    text-align: center;
+    margin-top: -0.5em;
+}
+
+.tag {
+    display: inline;
+    text-align-last: center;
+    font-size: 1.4em;
+    text-align: center;
+}
