@@ -7,83 +7,61 @@
       href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="/style.css" rel="stylesheet"
-    />
+    <link href="/style.css" rel="stylesheet"/>
   </head>
 
-  <body
-    style="
-      background: black;
-      color: white;
-      font-family: Crimson Text;
-      font-size: 45px;
-      margin-left: 1em;
-      margin-right: 1.25em;
-      margin-top: 0.5em;
-    "
-  >
-    <div id="header"
-      style="display: flex; justify-content: space-between;"
-    >
-      <a id="myName"
-        style="font-size: 50px; font-weight: 700; color: lime"
-        href="./home.html"
-      >
+  <body>
+    <div class="header">
+      <a class="myName" href="./home.html">
         NEIL B PATEL
       </a>
 
-      <a style="color: limegreen;" href="https://github.com/nepatel">our work</a>
+      <a class="tab" href="./work.html">
+        our work
+      </a>
 
-      <a style="color: limegreen;" href="./about.html">about us</a>
+      <a class="tab" href="./about.html">
+        about us
+      </a>
 
       <!--        linkedIn-->
       <!--        gitHub-->
       <!--        email-->
 
-      <!--        online + downloadable resume-->
-
       <!--        add a picture-->
     </div>
 
-    <div id="subtitle">
-      <p id ="tagline" style="font-size: 40px; margin-top: -0.3em;">
+    <div class="subtitle">
+      <p class="tagline"">
         student @ davidson college
       </p>
-      <hr style="margin-top: -0.4em;" />
+      <hr class="divider"/>
     </div>
 
-    <div id ="body"
-      style="
-        display: flex;
-        justify-content: space-between;
-        margin-right: 7em;
-        margin-top: 0em;
-      "
-    >
-      <div id="leftCol">
-        <ul style="font-size: 35px; margin-top: 0em;">
+    <div id ="resume">
+      <div>
+        <ul class="col">
           <li>web dev</li>
-          <ul style="font-size: 30px;">
+          <ul class="subentry">
             <li>html. css. js.</li>
             <li>adonis js</li>
           </ul>
           <li>py chef</li>
-          <ul style="font-size: 30px;">
+          <ul class="subentry">
             <li>scraping</li>
             <li>automation</li>
           </ul>
         </ul>
       </div>
 
-      <div id="rightCol">
-        <ul style="font-size: 35px; margin-top: 0em;">
+      <div>
+        <ul class="col">
           <li>git good</li>
-          <ul style="font-size: 30px;">
+          <ul class="subentry">
             <li>github</li>
           </ul>
           <li>tux fan</li>
-          <ul style="font-size: 30px;">
+          <ul class="subentry">
             <li>ubuntu</li>
             <li>manjaro</li>
             <li>kali</li>
@@ -92,8 +70,8 @@
       </div>
     </div>
 
-    <div id="footer" style="margin-top:-1em;"></div>
-      <a style="font-size: 15px; color: mediumorchid;" href="./PatelNeilResume.pdf">pssssst. i've got a little secret... -=-=--=-=-=-=-=-=-=-=-=-=-=-:>(real resume)</a>
+    <div class="footer"></div>
+      <a id="pdf" href="./PatelNeilResume.pdf">pssssst. i've got a little secret... -=-=--=-=-=-=-=-=-=-=-=-=-=-:>(real resume)</a>
     </div>
   </body>
 </html>

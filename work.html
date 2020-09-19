@@ -1,39 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Our Work</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
       rel="stylesheet"
     />
-</head>
-<body
-    style="
-      font-family:'Crimson Text';
-      font-size: 45px;
-      margin-left: 1em;
-      margin-right: 1.25em;
-      margin-top: 0.5em;
-      background:azure;
-      color:black;">
-    <div style="display: flex; justify-content: space-between;">
-      <a style="font-size: 50px; font-weight: 700; color: lightseagreen;" href="/home.html">
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <a class="myName" href="/home.html">
         NEIL B PATEL
       </a>
 
-      <a style="color: lightseagreen;" href="https://github.com/nepatel">our work</a>
+      <a class="tab" href="/work.html">
+        our work
+      </a>
 
-      <a style="color: lightseagreen;" href="/about.html">about us</a>
+      <a class="tab" href="/about.html">
+        about us
+      </a>
     </div>
 
-    <div>
-      <p style="font-size: 40px; margin-top: -0.3em; margin-bottom: 0em;">
+    <div class="subtitle">
+      <p class="tagline">
         student @ davidson college
       </p>
-      <hr style="margin-top: 0em;" />
+      <hr class="divider"/> 
     </div>
 
+    <div id="portfolio">
+      <div class="project">
+        <a class="url" href="/wtfAnime">wtfAnime</a> =
+        <p class="blurb">
+          animeRecommender(explicit, simple, effective);
+        </p> 
+        <hr>
+      </div>
+
+      <div class="project">
+        <a class="url" href="https://crimelog.herokuapp.com/">The Crimelog</a> = 
+        <p class="blurb">
+          cyberpunk gusto + Davidson College's campus crimelog + data viz
+        </p>
+        <hr>
+      </div>
+
+      <div class="project">
+        <a class="url" href="https://crime-scraper.herokuapp.com/">CrimeScraper</a> = 
+        <p class="blurb">
+          function () {
+            <div class="indent">
+              &emsp;
+              response = scrape(Davidson College crimelog);
+            </div>
+            &emsp;
+            <div class="indent">
+              &emsp;
+              serve(response.JSON());
+            </div>
+          };
+        </p>
+        <hr>
+      </div>
+
+      <div class="project">
+        <a class="url" href="/passcheck">PassCheck</a> =
+        <p class="blurb">
+          "that frustrating (but necessary) feature that most websites have for their account creation";
+        </p>
+        <hr>
+      </div>
+
+      <div class="project">
+        <a class="url" href="https://five-words.herokuapp.com/">Five Words</a> =
+        <p class="blurb">
+          "a service where users reflect on their day and can identify insightful trends - with just five words a day";
+        </p>
+        <hr style="margin-top: 0em; margin-bottom: 0.5em;">
+      </div>
+
+      <div class="project">
+        <a class="url" href="https://majoredin.herokuapp.com/">MajoredIn</a> =
+        <p class="blurb">
+          "helps younger students explores 'paths' to their major by using older students' and young alumni's college history";
+        </p>
+        <hr>
+      </div>
+
+    </div>
   </body>
 </html>

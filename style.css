@@ -1,28 +1,126 @@
-body {
+#intro {
   background: black;
   color: lime;
-  font-family: Crimson Text;
+  font-family: "Crimson Text";
   font-size: 2.93vw;
   margin-top: -0.3em;
   margin-left: 1em;
+  margin-right: 1.25em;
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: "Crimson Text";
+  font-size: 3.75vw;
+  margin-left: 1em;
+  margin-right: 1.25em;
+  margin-top: 0.5em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myName {
+  font-size: 50px;
+  font-weight: 700;
+  color: lime;
+}
+
+.myName:hover {
+  color: aqua;
+}
+
+.tab {
+  color: limegreen;
+  font-size: 4.5vw;
+}
+
+.tab:hover {
+  color: lime;
+}
+
+.tagline {
+  font-size: 40px;
+  margin-top: -0.3em;
+}
+
+.divider {
+  margin-top: -0.4em;
+}
+
+.footer {
+  margin-top: -1em;
 }
 
 #name {
   color: white;
 }
 
-.top, .mid {
-    margin-bottom: -1em;
+.top,
+.mid {
+  margin-bottom: -1em;
 }
 
 #block5 {
-    text-align: center;
-    margin-top: -0.5em;
+  text-align: center;
+  margin-top: -0.5em;
 }
 
 .tag {
-    display: inline;
-    text-align-last: center;
-    font-size: 1.4em;
-    text-align: center;
+  display: inline;
+  text-align-last: center;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.url {
+  color: lime;
+  font-size: 0.9em;
+}
+
+.url:hover {
+  color: cyan;
+}
+
+.url:active {
+  color: white;
+}
+
+.blurb {
+  margin-top: 0em;
+  font-size: 0.8em;
+}
+
+.project {
+  margin-bottom: 0.25em;
+}
+
+.indent {
+  font-size: 0.8em;
+  margin-top: -1em;
+  margin-bottom: -0.2em;
+}
+
+#resume {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 7em;
+  margin-top: 0em;
+}
+
+.col {
+  font-size: 35px;
+  margin-top: 0em;
+}
+
+.subentry {
+  font-size: 30px;
+}
+
+#pdf {
+  font-size: 15px;
+  color: mediumorchid;
 }
