@@ -72,6 +72,14 @@ body {
   color: white;
 }
 
+#name:hover {
+  color: cyan;
+}
+
+#name:active {
+  color: black;
+}
+
 .top,
 .mid {
   margin-bottom: -1em;
@@ -173,7 +181,7 @@ body {
   margin-bottom: 4vw;
 }
 
-#tldrDivider{
+#tldrDivider {
   margin-top: 3vw;
 }
 
@@ -195,3 +203,44 @@ body {
 li {
   margin-top: 1vw;
 }
+
+#radio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vw;
+  border: 1vw white double;
+  padding: 1vw;
+}
+
+.freqLabel {
+  margin-left: 12vw;
+  margin-right: 1vw;
+}
+
+.channels {
+  margin-top: -10vw;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.channel {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  font-size: 2vw;
+}
+
+.knob {
+  height: 10vw;
+  width: 10vw;
+  background-color: black;
+  border-radius: 5vw;
+  border: 1vw white double;
+}
+
+#tunerBar {
+  width: 80%;
+  border: 1vw white double;
+  margin-top: 3vw;
+  margin-bottom: 1vw;
+  margin-left: 18%;
