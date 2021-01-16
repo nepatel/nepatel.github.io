@@ -68,8 +68,26 @@ body {
   margin-top: -4vw;
 }
 
+#skipBtn {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2vw;
+  margin-bottom: -5vw;
+  color: white;
+}
+
+#skipBtn:hover {
+  color: cyan;
+}
+
+#skipBtn:active {
+  color: black;
+}
+
 #name {
   color: white;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 #name:hover {
@@ -80,21 +98,12 @@ body {
   color: black;
 }
 
-.top,
-.mid {
-  margin-bottom: -1em;
-}
-
-#block5 {
-  text-align: center;
-  margin-top: 1vw;
-}
-
-.tag {
-  display: inline;
-  text-align-last: center;
-  font-size: 4.4vw;
-  text-align: center;
+#tag {
+  display: flex;
+  margin-top: 2vw;
+  font-size: 6vw;
+  justify-content: center;
+  white-space: nowrap;
 }
 
 .url {
@@ -244,3 +253,4 @@ li {
   margin-top: 3vw;
   margin-bottom: 1vw;
   margin-left: 18%;
+}
